@@ -13,7 +13,6 @@ export default function Section1() {
       data-aos-anchor-placement="top-bottom"
       className="w-full h-[40vw]  flex justify-center items-center"
     >
-      {" "}
       <Link
         href="/signpage"
         className="h-11/12 w-3/12  border-l border-l-gray-300 border-r border-r-white hover:border-r-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
@@ -71,15 +70,15 @@ export default function Section1() {
       </Link>
       <Link
         href="/signpage"
-        className="h-11/12 w-3/12   border-l border-l-white border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
+        className="h-11/12 w-3/12  border-l border-l-white border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-8/12  flex items-center justify-center transform transition-all duration-500 group-hover:scale-x-115 group-hover:scale-y-110">
           <img src="lap1234.png" alt="" />
         </div>
         <div className="w-10/12 h-2/12 sm:text-sm md:text-md lg:text-xl  text-center font-aldrich flex flex-col items-center justify-center transform  transition-all duration-500 group-hover:scale-x-120 group-hover:scale-y-110">
           <p>
-            Lorem ipsum dolor sit amet conseic
-            veniam!
+            Lorem ipsum dolor sit amet conseic Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Expedita, iusto! veniam!
           </p>
           <p>Lorem ipsum dolor sit</p>
         </div>
