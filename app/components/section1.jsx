@@ -77,9 +77,11 @@ export default function Section1() {
         </div>
         <div className="w-10/12 h-2/12 sm:text-sm md:text-md lg:text-xl  text-center font-aldrich flex flex-col items-center justify-center transform  transition-all duration-500 group-hover:scale-x-120 group-hover:scale-y-110">
           <p>
-            Lorem ipsum dolor sit amet conseic Loremakzjbdceh ipsum dolor, sit amet
-            consectetur adipisicing elit. Expedita, iusto! veniam!
+            Lorem ipsum dolor sit amet conseic Loremakzjbdceh ipsum dolor, sit
+            amet consectetur adipisicing elit. Expedita, iusto!
+            veniam!nzdcjbdbcsjdcb kd
           </p>
+          <p>sjqbdchsfbvf</p>
           <p>Lorem ipsum dolor sit</p>
         </div>
       </Link>
