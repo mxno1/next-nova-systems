@@ -11,7 +11,7 @@ export default function Main() {
 
   return (
     < > 
-      <div data-aos="fade-up" className="w-full sm:h-[30vh] md:h-[50vh] lg:h-[75vh]  flex items-center justify-around mt-28 border-b border-t border-gray-200 bg-zinc-50 ">
+      <div data-aos="fade-up" className="w-full sm:h-[30vh] md:h-[50vh] lg:h-[75vh]  flex items-center justify-around mt-28 border-b border-t border-gray-200 bg-zinc-100 ">
         <div className="w-5/12 h-10/12 flex flex-col items-center  ">
           <h1 className="font-aldrich sm:text-2xl md:text-4xl lg:text-5xl leading-loose tracking-wide scale-y-75 ">
             NOVA SYSTEMS

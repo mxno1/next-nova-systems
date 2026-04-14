@@ -16,7 +16,7 @@ export default function Section1() {
       <Link
         data-aos="fade-up"
         href="/signpage"
-        className=" bg-linear-to-b from-white via-zinc-50 to-white h-11/12 w-3/12  border-l border-l-gray-300 border-r border-r-white hover:border-r-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
+        className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-gray-300 border-r border-r-white hover:border-r-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-8/12  flex items-center justify-center transform transition-all duration-500 group-hover:scale-x-110 group-hover:scale-y-110">
           <div className="w-full    flex items-center justify-center transform transition-all duration-500 group-hover:scale-x-115 group-hover:scale-y-110">
@@ -37,7 +37,7 @@ export default function Section1() {
       <Link
         data-aos="fade-up"
         href="/signpage"
-        className=" bg-linear-to-b from-white via-zinc-50 to-white h-11/12 w-3/12 border-l border-l-white border-r border-r-white hover:border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
+        className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12 border-l border-l-white border-r border-r-white hover:border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-8/12  transform transition-all duration-500 group-hover:scale-x-120 group-hover:scale-y-115 flex items-center justify-center">
           <div className=" relative flex items-center justify-center w-full max-w-125">
@@ -73,7 +73,7 @@ export default function Section1() {
       <Link
         data-aos="fade-up"
         href="/signpage"
-        className=" bg-linear-to-b from-white via-zinc-50 to-white h-11/12 w-3/12  border-l border-l-white border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
+        className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-none border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-8/12  flex items-center justify-center transform transition-all duration-500 group-hover:scale-x-115 group-hover:scale-y-110">
           <img src="lap1234.png" alt="" />

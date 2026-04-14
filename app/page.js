@@ -1,6 +1,7 @@
 import Main from "./components/mainbox.jsx";
 import Navb from "./components/navb.jsx";
 import Section1 from "./components/section1.jsx";
+import Section2 from "./components/section2.jsx";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Navb />
       <Main/>
       <Section1/>
+      <Section2/>
       
       
     </div>
