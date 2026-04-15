@@ -14,6 +14,7 @@ export default function Section1() {
       className="w-full h-[35vw]  flex justify-center items-center mb-10"
     >
       <Link
+        data-aos-once="true"
         data-aos="fade-up"
         href="/signpage"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-gray-300 border-r border-r-zinc-100 hover:border-r-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
@@ -34,6 +35,7 @@ export default function Section1() {
         </div>
       </Link>
       <Link
+        data-aos-once="true"
         data-aos="fade-up"
         href="/signpage"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12 border-l border-l-zinc-100 border-r border-r-zinc-100 hover:border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
@@ -70,6 +72,7 @@ export default function Section1() {
         </div>
       </Link>
       <Link
+        data-aos-once="true"
         data-aos="fade-up"
         href="/signpage"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-zinc-100 border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
@@ -78,8 +81,8 @@ export default function Section1() {
           <img src="lap1234.png" className="w-68" alt="" />
           <div className="w-10/12  sm:text-[0.5rem] md:text-[0.7rem] lg:text-[0.9rem] t text-center font-aldrich flex flex-col items-center justify-center ">
             <p>
-              Discover powerful and portable laptops designed for performance,
-              speed, and everyday productivity.
+              Get powerful and portable laptops designed for performance, speed,
+              and everyday productivity.
             </p>
             <p>
               Whether for gaming, study, or work, choose the perfect laptop that
