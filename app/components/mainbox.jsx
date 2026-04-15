@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import Aos from "aos";
 import { useEffect } from "react";
@@ -10,8 +10,11 @@ export default function Main() {
   }, []);
 
   return (
-    < > 
-      <div data-aos="fade-up" className="w-full sm:h-[30vh] md:h-[50vh] lg:h-[75vh]  flex items-center justify-around mt-28 border-b border-t border-gray-200 bg-zinc-100 ">
+    <>
+      <div
+        data-aos="fade-up"
+        className="w-full sm:h-[30vh] md:h-[45vh] lg:h-[75vh]  flex items-center justify-around mt-28 mb-10 border-b border-t border-gray-200 bg-zinc-100 "
+      >
         <div className="w-5/12 h-10/12 flex flex-col items-center  ">
           <h1 className="font-aldrich sm:text-2xl md:text-4xl lg:text-5xl leading-loose tracking-wide scale-y-75 ">
             NOVA SYSTEMS
@@ -30,16 +33,16 @@ export default function Main() {
             and crafted for elegance. Experience next-level performance with a
             limited-time exclusive offer.
           </p>
-          <div className="w-full h-12 bg-amber- p-1 m-10 sm:m-1 md:m-3  lg:m-10  flex items-center justify-center gap-10">
+          <div className="w-full h-12 bg-amber- p-1 sm:m-1 md:m-3  lg:m-10  flex items-center justify-center gap-10">
             <Link
               href="/"
-              className="w-2/8 rounded-[5px] font-aldrich  h-full bg-mist-50 flex items-center justify-center border border-gray-200 hover:bg-white transition duration-300"
+              className="w-2/8 rounded-[5px] font-aldrich  h-full bg-mist-50 flex items-center justify-center border border-zinc-300 hover:bg-white transition duration-300"
             >
               Pre-order
             </Link>
             <Link
               href="/"
-              className="w-1/8 rounded-[5px] font-aldrich h-full bg-mist-50 flex items-center justify-center border border-mist-50 hover:border-gray-200 hover:bg-white transition duration-300 "
+              className="w-1/8 rounded-[5px] font-aldrich h-full bg-mist-50 flex items-center justify-center border border-mist-50 hover:border-zinc-300 hover:bg-white transition duration-300 "
             >
               more
             </Link>
@@ -48,7 +51,7 @@ export default function Main() {
         <div className="w-4/12 h-10/12   flex items-center justify-center relative overflow-visible">
           <svg
             viewBox="0 0 300 200"
-            style={{ width: "100%", position: "relative", overflow: "visible" }}
+            style={{ position: "relative", overflow: "visible" }}
             className="w-full h-auto"
           >
             <defs>
@@ -238,7 +241,7 @@ export default function Main() {
           <img
             src="/asus1.png"
             alt=""
-            className="absolute z-0 object-cover z-10"
+            className="absolute w-full object-cover "
           />
         </div>
       </div>
