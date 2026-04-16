@@ -9,7 +9,8 @@ export default function Navb() {
   }, []);
   return (
     <>
-      <div  data-aos="fade" className="w-full h-16 max-w-screen bg-zinc-50  border-b  border-gray-200 flex items-center justify-center fixed gap-5 sm:gap-5 md:gap-12 lg:gap-20 z-1000">
+      <div 
+        data-aos-once="true" data-aos="fade" className="w-full h-16 max-w-screen bg-zinc-100  border-b  border-gray-200 flex items-center justify-center fixed gap-5 sm:gap-5 md:gap-12 lg:gap-20 z-1000">
         <Link href="/">
           <div className="min-w-1/8 h-full  flex items-center ">
             <img src="/applogo.png" alt="logo" className="w-30" />
@@ -38,7 +39,7 @@ export default function Navb() {
             href="/signpage"
             className="text-gray-400 text-[0.9rem] hover:text-gray-950 transition duration-300 font-aldrich"
           >
-            More
+            Cart
           </Link>
           <Link
             href="/signpage"
@@ -48,7 +49,7 @@ export default function Navb() {
           </Link>
         </div>
         <div className="min-w-4/12 h-full flex items-center justify-between">
-          <div className="h-7 sm:w-30 md:w-40 lg:w-50 border border-gray-200 rounded-[5px] pl-3 bg-gray-100 ">
+          <div className="h-7 sm:w-30 md:w-40 lg:w-50 border border-gray-300 rounded-[5px] pl-3 bg-zinc-50">
             <input
               className="w-full h-full border-none outline-none text-gray-600 text-[0.8rem] "
               placeholder="Search for a product"
@@ -61,7 +62,7 @@ export default function Navb() {
             </span>
             <Link
               href="/signpage"
-              className="h-full w-14  rounded-[5px] border border-gray-200 bg-zinc-50 hover:bg-zinc-100 transition duration-300 flex items-center justify-center"
+              className="h-full w-10  rounded-[5px] border border-gray-300 bg-zinc-50 hover:bg-white transition duration-300 flex items-center justify-center"
             >
               <img src="/user.png" className="w-4 " alt="" />
             </Link>

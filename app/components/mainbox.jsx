@@ -12,6 +12,8 @@ export default function Main() {
   return (
     <>
       <div
+      
+        data-aos-once="true"
         data-aos="fade-up"
         className="w-full sm:h-[30vh] md:h-[45vh] lg:h-[75vh]  flex items-center justify-around mt-28 mb-10 border-b border-t border-gray-200 bg-zinc-100 "
       >
