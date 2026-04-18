@@ -40,7 +40,7 @@ export default function Section1() {
         href="/signpage"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12 border-l border-l-zinc-100 border-r border-r-zinc-100 hover:border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
-        <div className="w-10/12 h-11/12  transform transition-all duration-500 group-hover:scale-x-120 group-hover:scale-y-115 flex flex-col items-center justify-around">
+        <div className="w-10/12 h-11/12  transform transition-all duration-500 group-hover:scale-x-110 group-hover:scale-y-108 flex flex-col items-center justify-around">
           <div className="  relative flex items-center justify-center w-full max-w-150">
             <img src="/gpu1.png" className="w-2/6 " alt="" />
             <img
@@ -77,7 +77,7 @@ export default function Section1() {
         href="/signpage"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-zinc-100 border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
-        <div className="w-10/12 h-11/12  flex flex-col items-center justify-around transform transition-all duration-500 group-hover:scale-x-115 group-hover:scale-y-110">
+        <div className="w-10/12 h-11/12  flex flex-col items-center justify-around transform transition-all duration-500 group-hover:scale-x-110 group-hover:scale-y-108">
           <img src="lap1234.png" className="w-68" alt="" />
           <div className="w-10/12  sm:text-[0.5rem] md:text-[0.7rem] lg:text-[0.9rem] t text-center font-aldrich flex flex-col items-center justify-center ">
             <p>

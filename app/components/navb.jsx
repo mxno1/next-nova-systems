@@ -1,16 +1,12 @@
 "use client";
 import Link from "next/link";
-import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 export default function Navb() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
     <>
       <div 
-        data-aos-once="true" data-aos="fade" className="w-full h-16 max-w-screen bg-zinc-100  border-b  border-gray-200 flex items-center justify-center fixed gap-5 sm:gap-5 md:gap-12 lg:gap-20 z-1000">
+         className="w-full h-16 max-w-screen bg-zinc-100  border-b  border-gray-200 flex items-center justify-center fixed gap-5 sm:gap-5 md:gap-12 lg:gap-20 z-1000">
         <Link href="/">
           <div className="min-w-1/8 h-full  flex items-center ">
             <img src="/applogo.png" alt="logo" className="w-30" />
@@ -18,16 +14,16 @@ export default function Navb() {
         </Link>
         <div className="min-w-2/8 h-full flex items-center justify-center gap-3 sm:gap-5 md:gap-7 lg:gap-10 whitespace-nowrap">
           <Link
-            href="/signpage"
+            href="/"
             className="text-gray-400 text-[0.9rem] hover:text-gray-950 transition duration-300 font-aldrich"
           >
             Home
           </Link>
           <Link
-            href="/signpage"
+            href="/productspage"
             className="text-gray-400 text-[0.9rem] hover:text-gray-950 transition duration-300 font-aldrich"
           >
-            Shop
+            Products
           </Link>
           <Link
             href="/signpage"
@@ -36,13 +32,13 @@ export default function Navb() {
             Catigories
           </Link>
           <Link
-            href="/signpage"
+            href="/cartpage"
             className="text-gray-400 text-[0.9rem] hover:text-gray-950 transition duration-300 font-aldrich"
           >
             Cart
           </Link>
           <Link
-            href="/signpage"
+            href="/aboutpage"
             className="text-gray-400 text-[0.9rem] hover:text-gray-950 transition duration-300 font-aldrich"
           >
             About
