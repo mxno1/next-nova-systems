@@ -21,53 +21,52 @@ export default function Section2() {
             className="w-full h-auto"
           >
             <defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="oklch(96.7% 0.001 286.375)" />
-                <stop offset="25%" stopColor="#c1e0e7" />
-                <stop offset="50%" stopColor="#00c9e3" />
-                <stop offset="75%" stopColor="#c1e0e7" />
-                <stop offset="100%" stopColor="oklch(96.7% 0.001 286.375)" />
-
-                <animateTransform
-                  attributeName="gradientTransform"
-                  type="translate"
-                  from="1 0"
-                  to="-1 0"
-                  dur="1.5s"
-                  begin="1s"
-                  repeatCount="indefinite"
-                />
-              </linearGradient>
-              <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="oklch(96.7% 0.001 286.375)" />
-                <stop offset="25%" stopColor="#676767" />
-                <stop offset="50%" stopColor="#000000" />
-                <stop offset="75%" stopColor="#676767" />
-                <stop offset="100%" stopColor="oklch(96.7% 0.001 286.375)" />
+              <linearGradient id="grad11" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#000000" />
+                <stop offset="25%" stopColor="#01546b" />
+                <stop offset="50%" stopColor="#05c7fc" />
+                <stop offset="75%" stopColor="#01546b" />
+                <stop offset="100%" stopColor="#000000" />
 
                 <animateTransform
                   attributeName="gradientTransform"
                   type="translate"
                   from="-1 0"
                   to="1 0"
-                  dur="1.5s"
-                  begin="1.5s"
+                  dur="2s"
+                  begin="1s"
+                  repeatCount="indefinite"
+                />
+              </linearGradient>
+              <linearGradient id="grad22" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#05cbfc" />
+                <stop offset="25%" stopColor="#a205fc" />
+                <stop offset="50%" stopColor="#05fc16" />
+                <stop offset="75%" stopColor="#a205fc" />
+                <stop offset="100%" stopColor="#05cbfc" />
+
+                <animateTransform
+                  attributeName="gradientTransform"
+                  type="translate"
+                  from="-1 0"
+                  to="1 0"
+                  dur="2s"
                   repeatCount="indefinite"
                 />
               </linearGradient>
             </defs>
             <path
-              d="M 30 -23 L 122 -28"
-              stroke="url(#grad1)"
+              d="M 31 -23 L 122 -28"
+              stroke="url(#grad11)"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="1"
             />
             <path
-              d="M 278 20 L 320 23"
+              d="M 122 -28 L 123 211"
               strokeWidth="0.5"
-              stroke="url(#grad2)"
+              stroke="url(#grad22)"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"

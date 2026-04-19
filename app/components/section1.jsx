@@ -55,7 +55,7 @@ export default function Section1() {
             />
             <img
               src="gpumr1.png"
-              className="absolute top-[67.5%] left-[41.6%] w-[19%] animate-[spin_3s_linear_infinite] group-hover:animate-spin"
+              className="absolute top-[67.5%] left-[41.65%] w-[19%] animate-[spin_3s_linear_infinite] group-hover:animate-spin"
               alt=""
             />
           </div>

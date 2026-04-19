@@ -14,30 +14,30 @@ export default function signpage() {
           <div className="w-full flex justify-center">
             
             {/* products wrapper */}
-            <div className="flex flex-wrap gap-x-16 gap-y-6 justify-center w-full ">
+            <div className="flex flex-wrap gap-x-10 gap-y-6 justify-center w-full ">
 
               {/* card */}
-              <div className="w-[40rem] h-72 bg-gray-200 rounded-[5px] flex items-center justify-center">
+              <div className="w-[50rem] h-72 bg-gray-200 rounded-[5px] flex items-center justify-center">
                 <div>1</div>
                 <div>2</div>
               </div>
 
-              <div className="w-[40rem] h-72 bg-gray-200 rounded-[5px]  flex items-center justify-center">
+              <div className="w-[50rem] h-72 bg-gray-200 rounded-[5px]  flex items-center justify-center">
                 <div>1</div>
                 <div>2</div>
               </div>
 
-              <div className="w-[40rem] h-72 bg-gray-200 rounded-[5px] flex items-center justify-center">
+              <div className="w-[50rem] h-72 bg-gray-200 rounded-[5px] flex items-center justify-center">
                 <div>1</div>
                 <div>2</div>
               </div>
 
-              <div className="w-[40rem] h-72 bg-gray-200 rounded-[5px] flex items-center justify-center">
+              <div className="w-[50rem] h-72 bg-gray-200 rounded-[5px] flex items-center justify-center">
                 <div>1</div>
                 <div>2</div>
               </div>
 
-              <div className="w-[40rem] h-72 bg-gray-200 rounded-[5px]  flex items-center justify-center">
+              <div className="w-[50rem] h-72 bg-gray-200 rounded-[5px]  flex items-center justify-center">
                 <div>1</div>
                 <div>2</div>
               </div>
