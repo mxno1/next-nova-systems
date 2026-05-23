@@ -37,13 +37,13 @@ export default function Main() {
           </p>
           <div className="w-full h-12 bg-amber- p-1 sm:m-1 md:m-3  lg:m-10  flex items-center justify-center gap-10">
             <Link
-              href="/"
+              href="/search?q=ASUS ZenBook"
               className="w-2/8 rounded-[5px] font-aldrich  h-full bg-mist-50 flex items-center justify-center border border-zinc-300 hover:bg-white transition duration-300"
             >
               Pre-order
             </Link>
             <Link
-              href="/"
+              href="/productspage"
               className="w-1/8 rounded-[5px] font-aldrich h-full bg-mist-50 flex items-center justify-center border border-mist-50 hover:border-zinc-300 hover:bg-white transition duration-300 "
             >
               more

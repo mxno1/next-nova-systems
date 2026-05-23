@@ -16,7 +16,7 @@ export default function Section1() {
       <Link
         data-aos-once="true"
         data-aos="fade-up"
-        href="/signpage"
+        href="/categories/component"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-gray-300 border-r border-r-zinc-100 hover:border-r-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-11/12  flex flex-col items-center justify-around transform transition-all duration-500 group-hover:scale-x-110 group-hover:scale-y-110">
@@ -37,7 +37,7 @@ export default function Section1() {
       <Link
         data-aos-once="true"
         data-aos="fade-up"
-        href="/signpage"
+        href="/categories/component"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12 border-l border-l-zinc-100 border-r border-r-zinc-100 hover:border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-11/12  transform transition-all duration-500 group-hover:scale-x-110 group-hover:scale-y-108 flex flex-col items-center justify-around">
@@ -74,7 +74,7 @@ export default function Section1() {
       <Link
         data-aos-once="true"
         data-aos="fade-up"
-        href="/signpage"
+        href="/categories/laptop"
         className=" bg-linear-to-b from-white via-zinc-100 to-white h-11/12 w-3/12  border-l border-l-zinc-100 border-r border-r-gray-300 hover:border-l-gray-300 transition-all duration-500 flex flex-col items-center justify-around group"
       >
         <div className="w-10/12 h-11/12  flex flex-col items-center justify-around transform transition-all duration-500 group-hover:scale-x-110 group-hover:scale-y-108">
